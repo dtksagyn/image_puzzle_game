@@ -1,0 +1,25 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #0c67ae;
+}
+#title {
+  width: 400px;
+  height: 150px;
+}
+
+#board {
+  width: 366px;
+  height: 366px;
+  background-color: lightskyblue;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid #0c67ae;
+  margin: 0 auto;
+}
+
+#board img {
+  height: 120px;
+  width: 120px;
+  border: 1px solid #0c67ae;
+}
