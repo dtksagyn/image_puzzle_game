@@ -76,5 +76,7 @@ function dragEnd() {
 
     currentTile.src = otherImg;
     otherTile.src = currImg;
+    turns = turns + 1;
+    document.getElementById("turns").innerText = turns;
   }
 }
