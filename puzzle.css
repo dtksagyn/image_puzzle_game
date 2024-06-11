@@ -1,7 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
+  place-items: center;
   color: #0c67ae;
+  display: grid;
 }
 #title {
   width: 400px;
@@ -9,13 +10,13 @@ body {
 }
 
 #board {
-  width: 366px;
-  height: 366px;
-  background-color: lightskyblue;
-  display: flex;
   flex-wrap: wrap;
+  width: 364px;
+  background-color: lightskyblue;
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
   border: 10px solid #0c67ae;
-  margin: 0 auto;
 }
 
 #board img {
